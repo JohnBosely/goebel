@@ -1,0 +1,29 @@
+# Goebel — Multi-Asset Predictive Maintenance Platform
+# Core
+pandas
+numpy
+scipy            # scipy.fft / scipy.signal — new for this project (bearing FFT features)
+scikit-learn
+xgboost
+
+# Explainability
+shap
+
+# Backend
+fastapi
+uvicorn[standard]
+pydantic
+
+# Dashboard
+streamlit
+plotly
+
+# Optional stretch (CNN-on-spectrogram bearing classifier)
+# torch
+
+# Optional experiment tracking
+# mlflow
+
+# Dev
+pytest
+python-dotenv
